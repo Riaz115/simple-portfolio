@@ -1,0 +1,512 @@
+/* this is for navbar */
+
+@media (max-width: 1050px) {
+  .navbar .for-logo {
+    gap: 70px;
+  }
+
+  .navbar .logo .logo-text {
+    font-size: 23px;
+  }
+}
+
+@media (max-width: 992px) {
+  .navbar {
+    flex-direction: column;
+    gap: max(1vw, 10px);
+  }
+}
+
+@media (max-width: 550px) {
+  .navbar .links {
+    gap: 25px;
+  }
+}
+
+@media (max-width: 450px) {
+  .navbar {
+    padding: 20px 10px;
+  }
+
+  .navbar .logo .logo-text {
+    font-size: 22px;
+  }
+
+  .navbar .links {
+    gap: 15px;
+  }
+
+  .navbar .links .every-link {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 330px) {
+  .navbar .logo .logo-text {
+    font-size: 23px;
+  }
+
+  .navbar .links {
+    gap: 12px;
+  }
+
+  .navbar .links .every-link {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 300px) {
+  .navbar .logo .logo-text {
+    font-size: 20px;
+  }
+
+  .navbar .links {
+    gap: 10px;
+  }
+
+  .navbar .links .every-link {
+    font-size: 13px;
+  }
+}
+
+/* this is for the home section css */
+@media (max-width: 1050px) {
+  .home .for-home .left-side .name {
+    font-size: 34px;
+  }
+}
+
+@media (max-width: 992px) {
+  .home {
+    padding-bottom: 10px;
+    margin-bottom: 0;
+  }
+
+  .home .for-home {
+    flex-direction: column-reverse;
+    gap: 30px;
+  }
+
+  .home .for-home .left-side {
+    max-width: 100%;
+  }
+
+  .home .for-home .right-side {
+    max-width: 100%;
+  }
+
+  .home .for-home .left-side .name {
+    font-size: 38px;
+  }
+}
+
+@media (max-width: 560px) {
+  .home .for-home {
+    padding: 10px;
+  }
+
+  .home .for-home .left-side .for-name {
+    font-size: 20px;
+  }
+
+  .home .for-home .left-side .name {
+    font-size: 32px;
+  }
+
+  .home .for-home .left-side .home-para {
+    font-size: 14px;
+  }
+  .home .for-home .right-side .for-image {
+    max-width: 300px;
+  }
+
+  .home .for-home .right-side {
+    padding: 0px;
+  }
+}
+
+@media (max-width: 450px) {
+  .home {
+    padding: 10px 0px;
+  }
+
+  .home .for-home .left-side .for-name {
+    font-size: 18px;
+  }
+
+  .home .for-home .left-side .name {
+    font-size: 28px;
+  }
+
+  .home .for-home .left-side .home-para {
+    font-size: 13px;
+  }
+
+  .home .for-home .left-side {
+    padding: 0px;
+  }
+
+  .home .for-home .right-side .for-image {
+    max-width: 250px;
+  }
+}
+
+@media (max-width: 330px) {
+  .home .for-home .left-side .for-name {
+    font-size: 16px;
+  }
+
+  .home .for-home .left-side .name {
+    font-size: 24px;
+  }
+
+  .home .for-home .left-side .home-para {
+    font-size: 12px;
+  }
+}
+
+/* this is for the about section  */
+@media (max-width: 1200px) {
+  .about {
+    padding-top: 20px;
+  }
+
+  .about .for-about {
+    flex-direction: column;
+  }
+
+  .about .for-about .right-side {
+    max-width: 100%;
+  }
+
+  .about .for-about .left-side {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 767px) {
+  .about {
+    padding: 20px 0px 0px 0px;
+  }
+
+  .about .about-heading {
+    padding-left: 5%;
+  }
+
+  .about .for-about {
+    padding: 10px;
+  }
+}
+
+@media (max-width: 560px) {
+  .about {
+    padding: 10px 0px 0px;
+  }
+
+  .about .for-about {
+    padding: 10px;
+  }
+
+  .about .for-about .for-image {
+    width: 300px;
+  }
+
+  .about .for-about .right-side p {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 400px) {
+  .about .for-about .for-image {
+    width: 270px;
+  }
+
+  .about .for-about .right-side .for-btns .for-button {
+    padding: 10px 18px;
+    margin: 5px 5px;
+  }
+}
+
+@media (max-width: 330px) {
+  .about .for-about .for-image {
+    width: 250px;
+  }
+
+  .about .for-about .right-side .for-btns .for-button {
+    padding: 6px 14px;
+    margin: 5px 5px;
+    font-size: 10px;
+  }
+}
+
+/* this is for the skills section */
+@media (max-width: 992px) {
+  .skills .for-skills {
+    flex-direction: column;
+    gap: 80px;
+  }
+
+  .skills .for-skills .every-skills-box {
+    width: 80%;
+  }
+
+  .skills .for-skills .every-skills-box .for-skill-heading {
+    text-align: center;
+    margin: 40px auto 20px;
+  }
+
+  .skills .for-skills .every-skills-box .all-skills .skill {
+    text-align: center;
+  }
+
+  .skills .for-skills .every-skills-box .all-skills {
+    margin-left: 15px;
+  }
+
+  .skills .for-skills .every-skills-box .for-image {
+    top: -20%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
+@media (max-width: 576px) {
+  .skills .for-skills {
+    gap: 50px;
+  }
+
+  .skills .for-skills .every-skills-box .for-image {
+    width: 50px;
+    height: 50px;
+    top: -15%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .skills .skill-para {
+    font-size: 14px;
+  }
+
+  .skills .education {
+    font-size: 16px;
+  }
+
+  .skills .degree {
+    font-size: 15px;
+  }
+  .skills .for-skills .every-skills-box .for-skill-heading {
+    margin-bottom: 17px;
+  }
+}
+
+/* this is for the projects section */
+
+@media (max-width: 767px) {
+  .projects {
+    padding: 10px 0px;
+  }
+
+  .projects .for-project-heading {
+    font-size: 32px;
+    padding-left: 20px;
+    margin-bottom: 30px;
+  }
+
+  .projects .for-projects {
+    padding: 10px 30px;
+  }
+
+  .projects .for-projects .every-project .project-description {
+    max-width: 100%;
+  }
+
+  .projects .for-projects .every-project .project-title {
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 576px) {
+  .projects .for-projects {
+    padding: 10px 20px;
+  }
+
+  .projects .for-project-heading {
+    font-size: 28px;
+    padding-left: 15px;
+    margin-bottom: 20px;
+  }
+
+  .projects .for-projects .every-project {
+    padding: 20px;
+  }
+
+  .projects .for-projects .every-project .project-title {
+    font-size: 25px;
+    margin: 20px 0px 3px;
+  }
+
+  .projects .for-projects .every-project .project-description {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 450px) {
+  .projects .for-projects {
+    padding: 10px 10px;
+  }
+
+  .projects .for-project-heading {
+    font-size: 26px;
+    padding-left: 15px;
+    margin-bottom: 15px;
+  }
+
+  .projects .for-projects .every-project {
+    padding: 10px;
+  }
+  .projects .for-projects .every-project .project-title {
+    font-size: 22px;
+  }
+
+  .projects .for-projects .every-project .project-description {
+    font-size: 12px;
+  }
+
+  .projects .for-projects .every-project .for-project-skills .project-skill {
+    background-color: rgb(162, 162, 233);
+    margin: 10px 1px;
+    font-size: 12px;
+    padding: 5px 7px;
+  }
+}
+
+@media (max-width: 330px) {
+  .projects .for-projects .every-project .project-title {
+    font-size: 20px;
+  }
+
+  .projects .for-projects .every-project .project-description {
+    font-size: 11px;
+  }
+
+  .projects .for-projects .every-project .for-project-skills .project-skill {
+    margin: 5px 1px;
+    font-size: 10px;
+    padding: 4px 6px;
+  }
+}
+
+/* this is for the contact section */
+
+@media (max-width: 992px) {
+  .contact .for-contact {
+    flex-direction: column-reverse;
+    gap: 20px;
+  }
+
+  .contact .for-contact .left-side {
+    height: auto;
+    width: 80vw;
+  }
+
+  .contact .for-contact .right-side {
+    height: auto;
+    width: 80vw;
+  }
+}
+
+@media (max-width: 767px) {
+  .contact .contact-heading {
+    font-size: 34px;
+    padding-left: 30px;
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 576px) {
+  .contact .for-contact {
+    padding: 0px 0px;
+    gap: 0px;
+  }
+
+  .contact .for-contact .left-side {
+    height: auto;
+    width: 90vw;
+  }
+
+  .contact .for-contact .right-side {
+    height: auto;
+    width: 90vw;
+  }
+
+  .contact .for-contact .left-side .my-heading {
+    font-size: 18px;
+    padding: 5px 20px;
+  }
+
+  .contact .for-contact .left-side .main-heading {
+    font-size: 38px;
+  }
+
+  .contact .for-contact .left-side .for-icons {
+    padding: 10px;
+    margin: 5px 0px;
+    gap: 5px;
+  }
+
+  .contact .for-contact .left-side .for-icons .for-link {
+    padding: 6px 15px;
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 360px) {
+  .contact .for-contact .left-side .my-heading {
+    font-size: 16px;
+    padding: 5px 10px;
+  }
+
+  .contact .for-contact .left-side .main-heading {
+    font-size: 32px;
+    padding: 0px 10px;
+  }
+
+  .contact .for-contact .left-side .for-icons {
+    padding: 5px;
+    margin: 5px 0px;
+    gap: 3px;
+  }
+
+  .contact .for-contact .left-side .for-icons .for-link {
+    padding: 6px 14px;
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 310px) {
+  .contact .for-contact .left-side .my-heading {
+    font-size: 15px;
+    padding: 0;
+    margin: 0;
+  }
+
+  .contact .for-contact .left-side .main-heading {
+    font-size: 30px;
+    padding: 0;
+    margin: 0;
+  }
+
+  .contact .for-contact .left-side .for-icons .for-link {
+    padding: 4px 12px;
+    font-size: 11px;
+    margin: 0;
+    gap: 0px;
+  }
+}
+
+/* this is for footer */
+@media (max-width: 576px) {
+  .footer .footer-para {
+    font-size: 12px;
+  }
+}
