@@ -136,7 +136,7 @@ a {
 
 .home .for-home .home-skill .my-home-skill {
   font-size: 18px;
-  color: blue;
+  color: rgb(43, 197, 202);
   font-weight: 500;
   font-family: "Poppins", sans-serif;
 }
@@ -156,6 +156,7 @@ a {
   font-size: 38px;
   font-weight: 800;
   margin-bottom: 10px;
+color: rgb(73, 67, 67);
 }
 
 .home .for-home .left-side .home-para {
@@ -268,7 +269,7 @@ transition:all.9s ease-in-out;
 }
 
 .about .for-about .right-side p .name {
-  color: rgb(126, 65, 238);
+  
   font-size: 20px;
   font-family: "Courier New", Courier, monospace;
   padding: 0px 5px;
