@@ -179,6 +179,7 @@ a {
   border: none;
   outline: none;
   box-shadow: none;
+transition:all.9s ease-in-out;
 }
 
 .home .for-home .left-side .resume-btn:hover {
@@ -557,7 +558,7 @@ a {
   color: blue;
   border: 2px solid rgb(84, 84, 219);
   border-radius: 5px;
-  transition: all 0.3s ease-in-out;
+  transition:all.9s ease-in-out;
 }
 
 .contact .for-contact .left-side .for-icons .for-link:hover {
