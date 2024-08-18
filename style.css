@@ -476,23 +476,23 @@ a {
 @keyframes forImage {
   0% {
     transform: scale(1);
-    box-shadow: 5px 5px 5px 5px black;
+    
   }
   25% {
-    box-shadow: 5px 4px 8px 5px blue;
+  
     transform: scale(1.05);
   }
   50% {
-    box-shadow: 5px 4px 8px 5px green;
+   
     transform: scale(1.1);
   }
   75% {
-    box-shadow: 5px 4px 8px 5px yellow;
+   
     transform: scale(1.05);
   }
 
   100% {
-    box-shadow: 5px 4px 8px 5px red;
+   
     transform: scale(1.01);
   }
 }
