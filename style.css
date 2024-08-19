@@ -149,14 +149,13 @@ a {
 .home .for-home .left-side .for-name {
   font-size: 24px;
   font-weight: 400;
-  
 }
 
 .home .for-home .left-side .name {
   font-size: 38px;
   font-weight: 800;
   margin-bottom: 10px;
-color: rgb(73, 67, 67);
+  color: rgb(73, 67, 67);
 }
 
 .home .for-home .left-side .home-para {
@@ -180,12 +179,9 @@ color: rgb(73, 67, 67);
   border: none;
   outline: none;
   box-shadow: none;
-<<<<<<< HEAD
+
   transition: all 0.7s ease-in-out;
   box-shadow: 1px 2px 6px 1px #000;
-=======
-transition:all.9s ease-in-out;
->>>>>>> 07f60f429f51f0a150c75a92abf80ab677662a2b
 }
 
 .home .for-home .left-side .resume-btn:hover {
@@ -275,10 +271,6 @@ transition:all.9s ease-in-out;
 }
 
 .about .for-about .right-side p .name {
-<<<<<<< HEAD
-=======
-  
->>>>>>> 07f60f429f51f0a150c75a92abf80ab677662a2b
   font-size: 20px;
   font-family: "Courier New", Courier, monospace;
   padding: 0px 5px;
@@ -504,8 +496,8 @@ transition:all.9s ease-in-out;
 @keyframes forImage {
   0% {
     transform: scale(1);
-<<<<<<< HEAD
   }
+
   25% {
     transform: scale(1.05);
   }
@@ -513,28 +505,10 @@ transition:all.9s ease-in-out;
     transform: scale(1.1);
   }
   75% {
-=======
-    
-  }
-  25% {
-  
-    transform: scale(1.05);
-  }
-  50% {
-   
-    transform: scale(1.1);
-  }
-  75% {
-   
->>>>>>> 07f60f429f51f0a150c75a92abf80ab677662a2b
     transform: scale(1.05);
   }
 
   100% {
-<<<<<<< HEAD
-=======
-   
->>>>>>> 07f60f429f51f0a150c75a92abf80ab677662a2b
     transform: scale(1.01);
   }
 }
@@ -600,11 +574,8 @@ transition:all.9s ease-in-out;
   color: white;
   border: 2px solid white;
   border-radius: 5px;
-<<<<<<< HEAD
+
   transition: all 0.5s ease-in-out;
-=======
-  transition:all.9s ease-in-out;
->>>>>>> 07f60f429f51f0a150c75a92abf80ab677662a2b
 }
 
 .contact .for-contact .left-side .for-icons .for-link:hover {
