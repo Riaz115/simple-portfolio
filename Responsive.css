@@ -149,6 +149,10 @@
   .home .for-home .right-side .for-image {
     max-width: 250px;
   }
+
+  .home .for-home .left-side .resume-btn {
+    padding: 11px 18px;
+  }
 }
 
 @media (max-width: 330px) {
@@ -397,6 +401,16 @@
 }
 
 /* this is for the contact section */
+
+@media (max-width: 1200px) {
+  .contact .for-contact .left-side {
+    height: auto;
+  }
+
+  .contact .for-contact .right-side {
+    height: auto;
+  }
+}
 
 @media (max-width: 992px) {
   .contact .for-contact {
