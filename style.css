@@ -65,7 +65,8 @@ a {
   align-items: center;
   z-index: 99;
   background-color: rgb(245, 243, 239);
-  transition: all 0.3s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  animation: forFadeIn 2s linear forwards;
 }
 
 .sticky {
@@ -125,6 +126,7 @@ a {
   align-items: center;
   padding: 10px 50px;
   gap: 20px;
+  animation: forFadeIn 2s linear forwards;
 }
 
 .home .for-home .home-skill {
@@ -231,6 +233,7 @@ a {
   justify-content: center;
   padding: 10px 50px;
   gap: 40px;
+  animation: forFadeIn 2s linear forwards;
 }
 
 .about .for-about .left-side {
@@ -358,6 +361,7 @@ a {
   padding: 5% 7% 3%;
   position: relative;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  animation: forFadeIn 2s linear forwards;
 }
 
 .skills .for-skills .every-skills-box .for-image {
@@ -426,6 +430,7 @@ a {
   padding: 30px;
   text-align: center;
   box-shadow: 0 0 30px rgba(5, 9, 199, 0.3);
+  animation: forFadeIn 2s linear forwards;
 }
 
 .projects .for-projects .every-project .for-image {
@@ -492,27 +497,6 @@ a {
   transform: scale(1.05);
 }
 
-/* this is for animation */
-@keyframes forImage {
-  0% {
-    transform: scale(1);
-  }
-
-  25% {
-    transform: scale(1.05);
-  }
-  50% {
-    transform: scale(1.1);
-  }
-  75% {
-    transform: scale(1.05);
-  }
-
-  100% {
-    transform: scale(1.01);
-  }
-}
-
 /* this is for the contact section */
 
 .contact {
@@ -532,6 +516,7 @@ a {
   align-items: center;
   justify-content: center;
   gap: 50px;
+  animation: forFadeIn 2s linear forwards;
 }
 
 .contact .for-contact .left-side {
@@ -647,4 +632,34 @@ a {
 .footer .footer-para .icon:hover {
   color: yellow;
   transform: scale(1.1);
+}
+
+/* this is for animation */
+@keyframes forImage {
+  0% {
+    transform: scale(1);
+  }
+
+  25% {
+    transform: scale(1.05);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  75% {
+    transform: scale(1.05);
+  }
+
+  100% {
+    transform: scale(1.01);
+  }
+}
+
+@keyframes forFadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
